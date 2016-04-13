@@ -1,3 +1,10 @@
+/* ---- CARDS WRAPPER ---- */
+
+.cards-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 /* ---- PINTEREST ---- */
 
 
@@ -20,10 +27,10 @@
 .card-pinterest-body {
   margin: 10px;
 }
-.card-pinterest-body, h3 {
+.card-pinterest-body h3 {
   margin-bottom: 10px;
 }
-.card-pinterest-body, p {
+.card-pinterest-body p {
   font-size: 14px;
 }
 
@@ -48,4 +55,53 @@
 }
 .card-pinterest-footer-ids, p {
   font-size: 12px;
+}
+
+
+/* ---- CUSTOM ---- */
+
+.card-custom {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 50%),
+              url('http://unsplash.it/550/400');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-radius: 4px;
+  width: 400px;
+  height: 200px;
+  position: relative;
+}
+
+.card-custom-position {
+  margin-left: 60px;
+}
+
+.card-custom-description {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.card-custom-description h3 {
+  font-size: 24px;
+}
+.card-custom-description p {
+  font-size: 18px;
+}
+
+.card-custom-category {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.card-custom-user {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.avatar-custom {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
