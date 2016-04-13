@@ -1,0 +1,41 @@
+/* ---- Google Fonts ---- */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans|Roboto");
+
+/* ---- UI components ---- */
+
+@import url("components/avatar.css");
+@import url("components/buttons.css");
+@import url("components/card.css");
+@import url("components/form.css");
+@import url("components/grid.css");
+@import url("components/list.css");
+@import url("components/navbar.css");
+
+
+/* ---- General styling ---- */
+
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  padding-bottom: 200px;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat";
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 700px;
+}
+.text-center {
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+}
+
+li.component-list-item {
+  margin: 20px;
+}
