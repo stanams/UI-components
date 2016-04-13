@@ -1,0 +1,51 @@
+/* ---- PINTEREST ---- */
+
+
+.card-pinterest {
+  border-radius: 8px;
+  border: 1px solid #E0E0E0;
+  width: 300px;
+  -moz-box-shadow: 0px 2px 1px 0px #cfcfcf;
+  -webkit-box-shadow: 0px 2px 1px 0px #cfcfcf;
+  -o-box-shadow: 0px 2px 1px 0px #cfcfcf;
+  box-shadow: 0px 2px 1px 0px #cfcfcf;
+}
+.card-pinterest-position {
+  margin-left: 20px;
+}
+.card-image {
+  border-radius: 8px 8px 0 0;
+  background-size: cover;
+}
+.card-pinterest-body {
+  margin: 10px;
+}
+.card-pinterest-body, h3 {
+  margin-bottom: 10px;
+}
+.card-pinterest-body, p {
+  font-size: 14px;
+}
+
+.card-pinterest-footer {
+  border-top: 1px solid #E0E0E0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+.card-pinterest-footer > img {
+  width: 30px;
+  height: 30px;
+}
+
+.card-pinterest-footer-ids {
+  margin: auto 10px;
+}
+.card-pinterest-footer-ids-name {
+  font-weight: bold;
+}
+.card-pinterest-footer-ids, p {
+  font-size: 12px;
+}
