@@ -1,0 +1,45 @@
+.buttn {
+  margin-bottom: 140px;
+}
+
+.btn-medium {
+  border: 1px solid #666666;
+  color: #666666;
+  border-radius: 50px;
+  opacity: 0.6;
+  padding: 15px 20px;
+  transition: opacity 0.3s ease;
+}
+
+.btn-medium:hover {
+  opacity: 1;
+}
+
+.btn-twitter {
+  border: 1px solid #339CC3;
+  background: #339CC3;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background 0.1s ease;
+}
+
+.btn-twitter:hover {
+  background: #0084B4;
+}
+
+.btn-treehouse {
+  border: 1px solid #5FCF80;
+  background: white;
+  color: #5FCF80;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 15px 40px;
+  transition: background 0.5s ease;
+}
+
+.btn-treehouse:hover {
+  color: white;
+  background: #5FCF80;
+}
