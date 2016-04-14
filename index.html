@@ -9,7 +9,7 @@
   <body>
 
     <div class="container">
-      <h1 class="text-center">Sample of classic UI components</h1>
+      <h1 class="text-center page-title">Sample of classic UI components</h1>
 
       <h2>Avatars</h2>
 
@@ -31,7 +31,7 @@
 
       <h2>Buttons</h2>
 
-      <ul>
+      <ul class="component-list">
         <li class="component-list-item">
           <a class="buttn btn-medium" href="#">Write a story</a>
           <p class="description-margin">Medium Style</p>
@@ -50,8 +50,20 @@
       <div class="cards-wrapper">
 
         <div class="card-pinterest card-pinterest-position">
+          <div class="card-pinterest-image" style="background-image: url('http://unsplash.it/300/300')">
+            <div class="card-pinterest-hover">
+                <a class="save-btn-red" href="#"><i class="fa fa-thumb-tack" aria-hidden="true"></i> Save</a>
+                <a class="icon-btn-grey" href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+                <a class="icon-btn-grey" href="#"><i class="fa fa-heart"></i></a>
+              <div class="card-hover-footer">
+                <p>
+                  <i class="fa fa-globe" aria-hidden="true"></i>
+                  <a href="http://stanams.github.io/portfolio">Discover more : stanams.github.io/portfolio</a>
+                </p>
+              </div>
+            </div>
+          </div>
 
-          <img class="card-image" src="http://unsplash.it/300/300" alt="" />
           <div class="card-pinterest-body">
             <h3>
               Inside the Artificial Intelligence Revolution: A Special Report
@@ -76,7 +88,7 @@
         <div class="card-sub-wrapper">
 
           <div class="card-custom card-custom-position">
-            <img class="avatar-custom card-custom-user" src="http://unsplash.it/40/40" alt="" />
+            <img class="avatar-custom card-custom-user" src="http://unsplash.it/41/40" alt="" />
             <span class="card-custom-category">STAFF PICK</span>
             <div class="card-custom-description">
               <h3>Title</h3>
@@ -92,11 +104,13 @@
                 <div class="card-dribbble-hover">
                   <h4>First Design</h4>
                   <p>My very first design in this world</p>
+                  <em><p class="card-dribbble-hover-time">Updated 8 hours ago</p></em>
                 </div>
               </div>
               <div class="card-dribbble-likes">
                 <ul class="list-inline">
                   <li><i class="fa fa-heart"></i> 140</li>
+                  <li><i class="fa fa-comment"></i> 28</li>
                   <li><i class="fa fa-eye"></i> 567</li>
                 </ul>
               </div>
@@ -109,6 +123,9 @@
 
         </div>
       </div>
+
+      <h2>Tabs</h2>
+
 
 
     </div>
